@@ -24,7 +24,7 @@ const ProductItem: React.FC<Props> = ({title, image, tags, price, variantId}) =>
 
   return (
     <div className={styles.ProductItem}>
-      <img src={image} />
+      <img src={image} alt={title} />
       <div className={styles.ProductItem__tag}>
         {tags.map(item => {
           return <span key={item.value}>{item.value}</span>;
