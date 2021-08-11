@@ -1,0 +1,25 @@
+
+
+.QuantityInput {
+
+
+    font-size: 1.5rem;
+
+    &__icon {
+        cursor: pointer;
+    }
+
+    &__quantity {
+        margin: 0 1rem;
+        font-size: 1.2rem;
+    }
+
+    
+  ::selection {
+  background: transparent; 
+}
+::-moz-selection {
+  background:  transparent
+}
+
+}
